@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bewake", "bewake.csproj", "{ED9BDA09-F221-44E2-9D28-B7B6EB34F1ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED9BDA09-F221-44E2-9D28-B7B6EB34F1ED}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ED9BDA09-F221-44E2-9D28-B7B6EB34F1ED}.Debug|x86.Build.0 = Debug|Any CPU
+		{ED9BDA09-F221-44E2-9D28-B7B6EB34F1ED}.Release|x86.ActiveCfg = Release|Any CPU
+		{ED9BDA09-F221-44E2-9D28-B7B6EB34F1ED}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BDE1ED2-BF73-4E95-9756-119221E67A46}
+	EndGlobalSection
+EndGlobal
