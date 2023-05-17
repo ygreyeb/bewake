@@ -82,6 +82,16 @@ namespace Bewake
                     }
                 }
             }
+
+            void ExitApplication(object? sender, EventArgs e)
+            {
+                container.Dispose();
+
+                Console.WriteLine("Release display state before exit");
+                ResetState();
+
+                Application.Exit();
+            }
         }
 
         static bool ResetState()
@@ -94,14 +104,6 @@ namespace Bewake
             bool succeeded = SetThreadExecutionState(flags) != 0;
             if (!succeeded) Console.WriteLine($"Error: unable to set thread execution state [{flags}]");
             return succeeded;
-        }
-
-        static void ExitApplication(object? sender, EventArgs e)
-        {
-            Application.Exit();
-
-            Console.WriteLine("Release display state before exit");
-            ResetState();
         }
     }
 }
